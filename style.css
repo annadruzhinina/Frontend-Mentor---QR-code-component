@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*- Mobile: 375px*/
+/*- Desktop: 1440px*/
+
+
+/*font-family: ;*/
+/*font-size: 15px;*/
+:root {
+    --white: #fff;
+    --gray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+}
+
+.container{
+    margin: 30px;
+    padding: 30px;
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+    background-color: var(--gray);
+    transition: background-color 300ms;
+}
+
+.img{
+    padding-top: 20px;
+    border-radius:10px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+
+}
+.card{
+    display: block;
+    margin:0 auto;
+}
+.text{
+    font-size: 15px;
+}
+.title{
+
+}
+
+.card{
+    background-color: var(--white);
+    width: 240px;
+    height: 340px;
+    border-radius: 10px;
+}
